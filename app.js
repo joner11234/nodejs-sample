@@ -6,6 +6,6 @@ http.createServer(function(request, response) {
     //内容类型 text/plain
 
     response.end('hello world\n');
-}).listen(8080)
+}).listen(3000)
 
-console.log('Server running art http://127.0.0.1:8080');
+console.log('Server running art http://127.0.0.1:3000');
